@@ -34,6 +34,7 @@ body {
   cursor: pointer;
   background-color: var(--primary-bg-color);
   color: var(--title-text-color);
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -150,6 +151,7 @@ body {
 .benefit-list .title {
   color: var(--title-text-color);
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -169,6 +171,8 @@ body {
 }
 
 .team-list .profession {
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
 }
 
@@ -202,6 +206,10 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
+}
+
+.link.address {
+  color: var(--primary-white-color);
 }
 
 .footer-address-nav .link:hover,
